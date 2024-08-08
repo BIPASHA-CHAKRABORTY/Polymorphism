@@ -29,8 +29,10 @@ class Quadratic
                 cout << "The quadratic equation doesn't have distinct roots." << endl;
             else if (d > 0)
                 cout << "The quadratic equation has real roots." << endl;
-            else 
+            else if(d<0)
                 cout << "The quadratic equation has imaginary roots." << endl;
+            else
+                cout<<"Something went wrong ! TRY AGAIN...";
         }
 
         void display() 
